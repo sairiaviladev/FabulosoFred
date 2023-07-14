@@ -1,0 +1,14 @@
+
+#include "Constantes.h"
+
+MAINMENU MENU {
+	POPUP "&Archivo"{
+		MENUITEM	"Nuevo Juego",	IDM_INICIAR	
+  		MENUITEM	"Salir",		IDM_SALIR	
+		MENUITEM	"Acerca de",    IDM_ACERCA
+	}
+	POPUP "&Ayuda"{
+     	MENUITEM	"Instrucciones",	IDM_INS	
+	}
+}
+
